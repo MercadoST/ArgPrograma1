@@ -1,0 +1,23 @@
+*{
+    margin: 2%;
+    padding: 1%
+}
+
+h1 {
+    color: rgb(0, 41, 41);
+}
+
+h2 {
+    color: darkslategray;
+}
+
+h3{
+    color: rgb(65, 160, 160);
+}
+
+body {
+    padding: 3%;
+    border: 1px;
+    margin: 5%;
+    
+}
