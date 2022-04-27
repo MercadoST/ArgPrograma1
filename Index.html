@@ -1,77 +1,159 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8" />
     <title>Santiago Mercado Portfolio</title>
 
     <link href="Lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="style" href="Lib/bootstrap/css/bootstrap.min.css">
 </head>
 
 <body>
-    <div class="logo">
-        <img src="/Lib/bootstrap/resourses/APLogo-20-20.png">
-    </div>
+    <nav class="navbar navbar-expand-sm container-fluid bg-dark rounded">
+        <div class="container-fluid">
+            <div class="col-3">
+                <a class="navbar-brand" href="#">
+                    <img src="Lib/bootstrap/resourses/APLogo-20-20.png" width="100">
+                </a>
+            </div>
+            <div class="col-7 text-sm-center">
+                <h2>Portfolio</h2>
+            </div>
 
-    <div class="loginbox">
-        <h5>Iniciar Sesion</h5>
-        <input class="form-control" type="text" name="usuario" value="" placeholder="Usuario">
-        <input class="form-control" type="password" name="contrasena" value="" placeholder="Contraseña">
-        <input class="btn btn-primary end-0" type="submit" value="Ingresar">
-    </div>
+            <div class="col-2">
+                <input class="btn btn-primary end-0" type="submit" value="Ingresar">
+            </div>
+        </div>
+    </nav>
 
-
-    <div id="cabe">
+    <div class="cajas" id="cabe">
         <h1>Santiago Mercado</h1>
         <p>Estudiante de Ingenieria</p>
         <p> <a href="www.linkedin.com/in/santiago-mercado-05232022b"> Linkedin </a></p>
     </div>
 
-<section>
-    <article> 
-        <h2>Perfil</h2>
-        <p>Busco superarme en cada aspecto y dar siempre lo mejor de mí en todos los ámbitos. Aprendo rápido todo tipo de lenguajes y tecnologías nuevos</p>
-    </article>
+    <section>
+        <article class="cajas" id="perfil">
+            <h2>Perfil</h2>
+            <p>Busco superarme en cada aspecto y dar siempre lo mejor de mí en todos los ámbitos. Aprendo rápido todo
+                tipo de lenguajes y tecnologías nuevos</p>
+        </article>
 
-    <article id="exp"> 
-        <h2> Experiencia </h2>
-        
-    </article>
-    <article id="edu"> 
-        <h2> Educacion </h2>
-        <h3>UTN Facultad Regional San Francisco</h3>
-        <p>2019-Actualidad</p>
-        <p>Cursando el 3er año de la carrera con 17 materias aprobadas.</p>
-        <h3>EETP N°453 Brigadier Estanislao López</h3>
-        <p>2012-2018</p>
-        <p>Egresado con el titulo deTécnico en Equipos e Instalaciones Electromecánicas.</p>
-    </article>
+        <article class="cajas" id="exp">
+            <h2> Experiencia </h2>
 
-    <article id="con"> 
-        <h2>Conocimientos</h2>
-        <h3>Idiomas</h3>
-        <ul>
-            <li>Español (Nativo)</li>
-            <li>Ingles (Intermedio)</li>
-        </ul>
-        <h3>Lenguajes de Programacion</h3>
-        <ul>
-            <li>C/C++</li>
-            <li>Java Script</li>
-            <li>Ruby</li>
-            <li>Phyton</li>
-            <li>HTML</li>
-            <li>CSS</li>
-        </ul>
-        <h3>Informatica avanzada</h3>
-        <h3>Microsoft Oficce (Word y Excel)</h3>
-    </article>
-    <footer id="foot">
-        <h4>Contacto</h4>
-        <a href="#">Facebook</a>
-        <a href="#">Tiwtter</a>
-      </footer>
-</section>
-<script src="Lib/bootstrap/js/bootstrap.bundle.min.js" ></script>
+        </article>
+        <article class="cajas" id="edu">
+            <h2> Educacion </h2>
+            <h3>UTN Facultad Regional San Francisco</h3>
+            <p>2019-Actualidad</p>
+            <p>Cursando el 3er año de la carrera con 17 materias aprobadas.</p>
+            <h3>EETP N°453 Brigadier Estanislao López</h3>
+            <p>2012-2018</p>
+            <p>Egresado con el titulo de Técnico en Equipos e Instalaciones Electromecánicas.</p>
+        </article>
+
+        <article class="cajas" id="con">
+            <div>
+                <h2>Conocimientos</h2>
+                <div>
+                    <h2>Conocimientos</h2>
+                    <h3>Idiomas</h3>
+                    <ul>
+                        <li>Español (Nativo)</li>
+                        <li>Ingles (Intermedio)</li>
+                    </ul>
+                </div>
+                <div id="lenguajes">
+                    <div class="container-md p-5">
+                        <div class="row pt-3">
+                            <h3 class="text-center pb-3 pt5">Lenguajes de Programacion</h3>
+                        </div>
+
+                        <div class="card-group">
+                            <div class="col-sm">
+                                <div class="card w-100 card-border mb-2">
+                                    <img src="Lib/bootstrap/resourses/imagenes programacion/c++ img.png"
+                                        class="card-img-top " alt="C/C++">
+                                    <div class="card-body">
+                                        <h5 class="card-title">C/C++</h5>
+                                        <p class="card-text">Nivel: <br>Intermedio</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="card w-100 card-border mb-2">
+                                    <img src="Lib/bootstrap/resourses/imagenes programacion/html img.png"
+                                        class="card-img-top" alt="HTML 5">
+                                    <div class="card-body">
+                                        <h5 class="card-title">HTML 5</h5>
+                                        <p class="card-text">Nivel: <br>Intermedio</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="card w-100 card-border mb-2">
+                                    <img src="Lib/bootstrap/resourses/imagenes programacion//css img.png"
+                                        class="card-img-top bg-white" alt="CSS">
+                                    <div class="card-body">
+                                        <h5 class="card-title">CSS</h5>
+                                        <p class="card-text">Nivel: <br>Intermedio</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="card w-100 card-border mb-2">
+                                    <img src="Lib/bootstrap/resourses/imagenes programacion/js img.png"
+                                        class="card-img-top bg-transparent" alt="JavaScript" >
+                                    <div class="card-body">
+                                        <h5 class="card-title">JavaScript</h5>
+                                        <p class="card-text">Nivel: <br>Intermedio</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="card w-100 card-border mb-2">
+                                    <img src="Lib/bootstrap/resourses/imagenes programacion/python img.png"
+                                        class="card-img-top" alt="Python">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Python</h5>
+                                        <p class="card-text">Nivel: <br> Basico</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="card w-100 card-border mb-2">
+                                    <img src="Lib/bootstrap/resourses/imagenes programacion/ruby.png"
+                                        class="card-img-top" alt="Ruby">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Ruby</h5>
+                                        <p class="card-text">Nivel: <br> Basico</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3>Informatica avanzada</h3>
+                </div>
+                <div>
+                    <h3>Microsoft Oficce (Word y Excel)</h3>
+                </div>
+            </div>
+
+
+        </article>
+        <footer class="cajas" id="foot">
+            <h4>Contacto</h4>
+            <a href="#">Facebook</a>
+            <a href="#">Tiwtter</a>
+        </footer>
+    </section>
+    <script src="Lib/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

@@ -59,7 +59,25 @@ body {
     margin: 5%;
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(135deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
-    linear-gradient(225deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
-    background-color:#708090;
+    linear-gradient(225deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px) 0 64px;
+    background-color: #708090;
     background-size: 64px 128px;
+}
+
+.cajas {
+    background-color: #d9ecff;
+    padding: 3%;
+    box-shadow: 0 0 10px #000;
+    margin: 5px;
+}
+
+.card-border{
+    border: solid 10px #d9ecff;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+
+.card-border:hover{
+    transform: scale(1.05);
 }
