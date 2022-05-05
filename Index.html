@@ -27,8 +27,8 @@
             </div>
         </div>
     </nav>
-    <div class="" id="banner">
-        <div id="Fade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div style="margin: 0.5%;" id="banner">
+        <div id="Fade" class="carousel slide carousel-fade " data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="Lib/bootstrap/resourses/codigo.jpg" class="d-block w-100" alt="...">
@@ -54,11 +54,20 @@
     <div class="container-fluid">
         <div class="row">
             <div class="cajas col-sm" id="cabe">
-                <h1>Santiago Mercado</h1>
-                <p>Estudiante de Ingenieria</p>
-                <p>Full Stack Developer Jr</p>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="https://scontent.fcor10-3.fna.fbcdn.net/v/t1.6435-9/158825771_4057638717629892_712162697323018364_n.jpg?_nc_cat=104&ccb=1-6&_nc_sid=09cbfe&_nc_ohc=uioIyVrEew8AX8hNM_2&_nc_oc=AQkvIqLwVZijYRZMK0ZRS0OhUZJ3oDUV8SqnYL9EFmgWlnOsmen8E7YFXT_gunh95ZQ&tn=gsdsklkz339bNATA&_nc_ht=scontent.fcor10-3.fna&oh=00_AT_JMGSnkebyPzG4vE2au-Q1SLt7X0fxhLjunCnQgUjiFQ&oe=629A711B"
+                            alt="" style="width:150px ;">
+                    </div>
+                    <div class="col">
+                        <h2>Santiago Mercado</h2>
+                        <p>Estudiante de Ingenieria</p>
+                        <p>Full Stack Developer Jr</p>
+                    </div>
+                </div>
+
             </div>
-            <div class="cajas col-sm" id="perfil">
+            <div class="cajas col-sm-6" id="perfil">
                 <h2>Perfil</h2>
                 <p>En busqueda de superarme en cada aspecto y dar siempre lo mejor de mí en todos los ámbitos. Aprendo
                     rápido todo
@@ -66,8 +75,6 @@
             </div>
         </div>
     </div>
-
-
 
     <section>
 
@@ -78,23 +85,100 @@
         </div>
         <div>
             <article class="cajas" id="edu">
-                <h2> Educacion </h2>
-                <div>
-                    <h3>UTN Facultad Regional San Francisco</h3>
-                    <p>2019-Actualidad</p>
-                    <p>Cursando el 3er año de la carrera con 17 materias aprobadas.</p>
-                </div>
-                <div>
-                    <h3>EETP N°453 Brigadier Estanislao López</h3>
-                    <p>2012-2018</p>
-                    <p>Egresado con el titulo de Técnico en Equipos e Instalaciones Electromecánicas.</p>
-                </div>
+                <h2> Educación </h2>
+                <div class="accordion" id="accordionEducacion">
+                    <div class="accordion-item bg-white">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                aria-controls="panelsStayOpen-collapseOne">
+                                <strong> UTN Facultad Regional San Francisco</strong>
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                            aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="accordion-body">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <img style="width: 110%; padding-top: 15px;"
+                                            src="Lib/bootstrap/resourses/Utn FRSFCO.png"
+                                            alt="UTN Facultad Regional San Francisco">
+                                    </div>
+                                    <div class="col">
+                                        <strong>(2019-Actualidad)</strong> Universidad que se le da especial énfasis a
+                                        la aplicación de las
+                                        utilidades informáticas como herramientas en la formación tanto de los
+                                        ingenieros comode los licenciados y técnicos, los que una vez graduados se
+                                        encuentran especialmente capacitados para hacer uso de ellas profesionalmente.
+                                        Actualmente con 17 materias aprobadas de la carrera de Ing. en Sistemas de
+                                        Información.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseTwo">
+                                <strong> Argentina Programa - #Yo Programo</strong>
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <img style="width: 100%;" src="Lib/bootstrap/resourses/APLogo-20-20 - balck.png"
+                                            alt="Argentina Programa - #Yo Programo">
+                                    </div>
+                                    <div class="col">
+                                        <strong>(Febrero - Agosto 2022)</strong>Egresado con el título de Full Stack
+                                        Developer Jr. Es un programa de formación en programación y pensamiento
+                                        computacional de dos fases con salida laboral en oficios digitales diseñado por
+                                        la Cámara de la industria Argentina del Software con certificacion en el INTI.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseThree">
+                                    <strong>Escuela de Educación Técnica Secundaria EETP 453</strong>
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingThree">
+                                <div class="accordion-body">
+                                    <div class="accordion-body">
+                                        <div class="row">
+                                            <div class="col-3 align-content-center">
+                                                <img style="width: 70%; ; padding-left: 30px;margin-top: -15px;"
+                                                    src="Lib/bootstrap/resourses/1581.5395350815611716202062531569.jpg"
+                                                    alt="Escuela de Educacion Tecnica Secundaria EETP 453">
+                                            </div>
+                                            <div class="col">
+                                                <strong>(2012 - 2018) </strong>Egresado con el titulo de Técnico en
+                                                Equipos e Instalaciones
+                                                Electromecánicas. Escuela Técnica que posee enfoque en el desarrollo y
+                                                mantencion electromecanico como en gestion comercial de empresas e
+                                                industrias.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             </article>
         </div>
 
         <article class="cajas" id="con">
             <div>
-                <h2>Conocimientos</h2>
+                <h2>Hard and Soft Skills</h2>
 
                 <div id="lenguajes">
                     <div class="container-md p-5">
