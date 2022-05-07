@@ -84,5 +84,9 @@ body {
 
 .img-banner{
     max-height: 600px;
-    
+
+}
+
+.img-redes{
+    max-width: 50px;
 }
